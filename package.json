@@ -1,0 +1,23 @@
+{
+  "name": "udemyextension",
+  "version": "1.0.0",
+  "description": "this will be our first chrome extension following the udemy couse ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhavya, Sankalp",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arorabhavya23/ChromeExtension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arorabhavya23/ChromeExtension/issues"
+  },
+  "homepage": "https://github.com/arorabhavya23/ChromeExtension#readme",
+  "dependencies": {
+    "@types/chrome": "0.0.114",
+    "types": "^0.1.1"
+  }
+}

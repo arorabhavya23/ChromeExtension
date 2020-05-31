@@ -1,0 +1,31 @@
+{
+    "name": "my first extension",
+    "version": "1.0.0",
+    "description": "this can be any dort of description",
+    "manifest_version": 2,
+    "background": {
+        "scripts":["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "js":   ["content.js"],
+            "matches": ["https://*.youtube.com/*"],
+            "exclude_matches": ["https://*.youtube.com/watch*"],
+            "run_at" : "document_end"
+        }
+    ],
+    "permissions": [
+        "bookmarks"
+    ],
+    "icons":{
+        "16": "youtubeDark.png",
+        "48" : "youtubeDark.png",
+        "128": "youtubeDark.png"
+    },
+    "browser_action": {
+        "default_title" : "created by plaky!! enjoy using :)",
+        "default_popup" : "popup.html"
+    }
+
+}
